@@ -9,7 +9,7 @@ Run io.giuthub.pranavgade20.jdsm.Main and pass the .class file generated above a
 
 Remember to include the library from https://github.com/pranavgade20/ClassReader
 
-###Output
+### Output
 The above command produces the following output:
 ```
 Public Test extends java/lang/Object
