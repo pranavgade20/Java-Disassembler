@@ -1,4 +1,4 @@
-public class MainTest {
+public class Test {
     static int abcabc = 23;
     public static void main(String[] args) {
         for (int loop_var = 0; loop_var < 10; loop_var++) {
