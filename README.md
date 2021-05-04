@@ -9,45 +9,49 @@ Run io.giuthub.pranavgade20.jdsm.Main and pass the .class file generated above a
 
 Remember to include the library from https://github.com/pranavgade20/ClassReader
 
+#### From prebuilt jar
+Download the latest jar from the releases tab, and run it: `java -jar Java-Disassembler.jar Test.class`
+
 ### Output
 The above command produces the following output:
 ```
-Public Test extends java/lang/Object
+Public class Test extends java/lang/Object
 
 
 Static abcabc I
 
 
 Public <init> ()V
-	ALOAD_0 
-	INVOKESPECIAL 0 1
-	RETURN 
-	
+        ALOAD_0
+        INVOKESPECIAL 0x0 0x1
+        RETURN
+        
 Public,Static main ([Ljava/lang/String;)V
-	ICONST_0 
-	ISTORE_1 
-	ILOAD_1 
-	BIPUSH 10
-	IF_ICMPGE 0 13
-	ILOAD_1 
-	INVOKEVIRTUAL 0 2
-	IINC 1 1
-	GOTO -1 -13
-	GETSTATIC 0 3
-	LDC 4
-	INVOKESTATIC 0 5
-	RETURN 
-	
+        ICONST_0
+        ISTORE_1
+        ILOAD_1
+        BIPUSH 0xa
+        IF_ICMPGE 0x0 0xd
+        ILOAD_1
+        INVOKEVIRTUAL 0x0 0x2
+        IINC 0x1 0x1
+        GOTO 0xff 0xf3
+        GETSTATIC 0x0 0x3
+        LDC 0x4
+        INVOKESTATIC 0x0 0x5
+        RETURN
+        
 Static doubler (I)V
-	GETSTATIC 0 3
-	ICONST_2 
-	ILOAD_0 
-	IMUL 
-	INVOKESTATIC 0 6
-	RETURN 
-	
+        GETSTATIC 0x0 0x3
+        ICONST_2
+        ILOAD_0
+        IMUL
+        INVOKESTATIC 0x0 0x6
+        RETURN
+        
 Static <clinit> ()V
-	BIPUSH 23
-	PUTSTATIC 0 7
-	RETURN
+        BIPUSH 0x17
+        PUTSTATIC 0x0 0x7
+        RETURN
+        
 ```

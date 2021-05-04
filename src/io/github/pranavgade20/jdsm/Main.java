@@ -21,7 +21,7 @@ public class Main {
         try {
             Klass klass = new Klass(new FileInputStream(file));
 
-            System.out.println(klass.access_flags.toString() + " " + klass.this_class.name + " extends " + klass.super_class.name);
+            System.out.println(klass.access_flags.toString() + " class " + klass.this_class.name + " extends " + klass.super_class.name);
             System.out.println();
             System.out.println();
 
