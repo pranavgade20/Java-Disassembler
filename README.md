@@ -1,5 +1,5 @@
 ## Java-Disassembler
-A disassembler that outputs jvm bytecode and a buncha other details from .class files. Uses (ClassReader)[https://github.com/pranavgade20/ClassReader] library.
+A disassembler that outputs jvm bytecode and a bunch of other details from .class files. Uses (ClassReader)[https://github.com/pranavgade20/ClassReader] library.
 
 ### Usage
 Compile your .java file `javac Test.java`
